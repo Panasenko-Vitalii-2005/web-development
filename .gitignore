@@ -137,3 +137,21 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# .txt files
+*.txt
+# Ignore this file 
+my-passwords.txt
+*Ignore files in this folder
+secret-folder/*
+Ignore all .txt files
+*.txt
+# Except this one
+!important.txt
+
+# this file should not be ignored
+secret.md  
+
+# Ignore this specific file
+.ignoreme
+# 
